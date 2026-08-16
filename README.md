@@ -1,40 +1,188 @@
-# Xen Utility — mises à jour
+Xen Utility
 
-Dépôt **public**. Les PC lisent `xen-update.json` au lancement.
+Optimiseur Windows 10 / 11 pensé pour le jeu. Interface en français : réseau, GPU, souris, Windows, télémétrie, debloat et nettoyage.
 
-## 1. Créer le dépôt GitHub
+Windows
+Version
+Discord
 
-1. github.com → **New repository**
-2. Nom : `xen-utility-updates`
-3. **Public**
-4. Upload les fichiers de **ce dossier** (sauf le dossier `release/`)
+Télécharger
 
-## 2. Publier l’installeur (Release)
+SetupXenUtility.exe — Xen Utility 2.0
 
-1. GitHub → **Releases** → **Create a new release**
-2. Tag : `v2.0.0`
-3. Joindre le fichier : `release/SetupXenUtility.exe`
-4. Publier
+Toutes les versions
 
-## 3. Corriger les URLs
+Installation
 
-Dans `xen-update.json`, remplace `TON-COMPTE` et `TON-REPO` par ton vrai compte et le nom du repo.
 
-Exemple d’URL du JSON (bouton **Raw** sur GitHub) :
 
-`https://raw.githubusercontent.com/TON-COMPTE/TON-REPO/main/xen-update.json`
 
-Colle cette URL dans l’app, fichier `opti_product.json` :
 
-```json
-"updateManifestUrl": "https://raw.githubusercontent.com/TON-COMPTE/TON-REPO/main/xen-update.json"
-```
+Télécharge SetupXenUtility.exe.
 
-## 4. Prochaine version (ex. 2.0.1)
 
-1. Passe `"version"` à `2.0.1` dans `xen-update.json`
-2. Mets le nouveau `SetupXenUtility.exe` dans une Release `v2.0.1`
-3. Mets à jour le champ `"url"` vers ce fichier
-4. Commit / push `xen-update.json`
 
-Les PC voient **Mettre à jour** au prochain lancement.
+Si SmartScreen affiche « Windows a protégé votre ordinateur » :
+
+
+
+
+
+Informations supplémentaires
+
+
+
+Exécuter quand même
+
+
+
+Installe, puis lance Xen Utility.
+
+
+
+Accepte l’UAC. Les tweaks ont besoin des droits administrateur.
+
+Ne désactive pas ton antivirus. L’alerte SmartScreen vient d’un installeur pas encore signé, pas d’un fichier malveillant.
+
+Contenu
+
+
+
+
+
+
+
+Section
+
+
+
+Rôle
+
+
+
+
+
+Accueil
+
+
+
+Vue d’ensemble et application groupée
+
+
+
+
+
+Optimisation du système
+
+
+
+Windows, registre, services
+
+
+
+
+
+GPU / RAM / CPU
+
+
+
+Latence matériel, power plan, perf
+
+
+
+
+
+Jeu & Game Bar
+
+
+
+Réglages jeu (dont Fortnite)
+
+
+
+
+
+Clavier & souris
+
+
+
+Entrée, USB, périphériques
+
+
+
+
+
+Télémétrie
+
+
+
+Moins de tracking — Defender reste actif
+
+
+
+
+
+Debloat
+
+
+
+Alléger Windows
+
+
+
+
+
+Réseau & latence
+
+
+
+TCP, DNS, ping
+
+
+
+
+
+Nettoyage
+
+
+
+Fichiers temporaires et système
+
+
+
+
+
+Support
+
+
+
+Aide et Discord
+
+Les options avancées (spoofer, etc.) passent par un plan supérieur sur Discord.
+
+Prérequis
+
+
+
+
+
+Windows 10 ou 11 (64 bits)
+
+
+
+Droits administrateur
+
+
+
+Connexion internet pour la licence et les mises à jour
+
+
+
+Mises à jour
+
+Au lancement, l’app lit [xen-update.json](https://github.com/xenstweaksTT/XenTweaks/blob/main/xen-update.json).
+Release actuelle : tag v2.0.0, fichier SetupXenUtility.exe.
+
+Support
+
+Discord : discord.gg/M4RpRhnFxv
